@@ -1,0 +1,14 @@
+name: gaussian_splatting_new
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - plyfile=0.8.1
+  - python=3.9
+  - tqdm
+  - pip:
+    - submodules/diff-gaussian-rasterization
+    - submodules/simple-knn
