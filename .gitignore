@@ -1,5 +1,6 @@
 *.pyc
 .vscode
+.idea
 output
 build
 tensorboard_3d
